@@ -168,3 +168,14 @@ div {
 
 
 
+@media screen and (max-width:499){
+
+    body{
+        flex-direction: column-reverse;
+       
+
+    }
+
+
+
+}

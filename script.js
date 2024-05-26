@@ -28,6 +28,22 @@ inputFile.addEventListener("change", function (e) {
   }
 });
 
+var myMusic= document.getElementById("music");
+
+function play() {
+
+myMusic.play();
+
+}
+
+ 
+
+function pause() {
+
+myMusic.pause();
+
+}
+
 
 
 
@@ -45,20 +61,12 @@ const text = nameinput
 const valueCartaz = document.querySelector("p")
 const valueinput = (document.querySelector(".input-valor").value)
 
-
-
-
-
-
   namecartaz.textContent = text
 
   valueCartaz.textContent = valueinput
-   
-
 
 
 }
-
 
 
 

@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+
+
+.quadrado-principal{
+    z-index: 1000;
+
+
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding: 20px;
+    background: #B37A38;
+
+
+    img{
+        border: 1px solid black;
+    }
+
+    h1{
+        font-size: 121px;
+    }
+
+    h2{
+        font-size: 80px;
+    }
+    h3{
+        font-size: 88px;
+
+    }
+
+    p{
+        font-size: 150px;
+    }
+
+    a{
+        font-weight: bold;
+        font-size: 50px;
+    }
+
+
+}
+
+.link{
+    align-self: self-end;
+    border: none;
+    background: none;
+
+    a{
+        text-decoration: none;
+        color: #000;
+
+        
+    }
+
+    a:hover{
+        color: #ed0606;
+
+    }
+
+    
+  
+}
+
+div{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+    background:  #B37A38;
+    align-self: center;
+   z-index: 100;
+    
+
+
+    input{
+        width: 200px;
+        height: 50px;
+        border: 2px solid black;
+        font-size: 20px;
+        font-weight: bold;
+        padding-left: 5px;
+    }
+
+    button{
+        width: 200px;
+        height: 50px;
+        color: #000;
+        font-weight: bold;
+        border: 1px solid black;
+    }
+
+    button:hover{
+    
+        opacity: .3;
+
+    }
+}
+
+#picture__input {
+    display: none;
+  }
+  
+  .picture {
+    width: 700px;
+    aspect-ratio: 16/9;
+    background: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #aaa;
+    border: 2px solid black;
+    cursor: pointer;
+    font-family: sans-serif;
+    transition: color 300ms ease-in-out, background 300ms ease-in-out;
+    outline: none;
+    overflow: hidden;
+  }
+  
+  .picture:hover {
+    color: #777;
+    background: #ccc;
+  }
+  
+
+  
+  .picture:focus {
+    color: #777;
+    background: #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .picture__img {
+    max-width: 100%;
+  }
+
+  .mascara{
+    width: 100vw;
+  
+    height: 100vh;
+    background: linear-gradient(211deg, rgb(-14 -2 -58 / 31%) 6%, rgb(60 57 42 / 69%) 36%, rgb(19 15 18 / 69%) 74%);
+    
+    visibility:visible;
+    top: 0;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+  }
+

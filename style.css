@@ -1,11 +1,11 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 
 }
 
-body{
+body {
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -17,7 +17,7 @@ body{
 
 
 
-.quadrado-principal{
+.quadrado-principal {
     z-index: 1000;
 
 
@@ -30,27 +30,28 @@ body{
     background: #B37A38;
 
 
-    img{
+    img {
         border: 1px solid black;
     }
 
-    h1{
+    h1 {
         font-size: 121px;
     }
 
-    h2{
+    h2 {
         font-size: 80px;
     }
-    h3{
+
+    h3 {
         font-size: 88px;
 
     }
 
-    p{
+    p {
         font-size: 150px;
     }
 
-    a{
+    a {
         font-weight: bold;
         font-size: 50px;
     }
@@ -58,40 +59,40 @@ body{
 
 }
 
-.link{
+.link {
     align-self: self-end;
     border: none;
     background: none;
 
-    a{
+    a {
         text-decoration: none;
         color: #000;
 
-        
+
     }
 
-    a:hover{
+    a:hover {
         color: #ed0606;
 
     }
 
-    
-  
+
+
 }
 
-div{
+div {
     border: 2px solid black;
     display: flex;
     flex-direction: column;
     gap: 30px;
     padding: 20px;
-    background:  #B37A38;
+    background: #B37A38;
     align-self: center;
-   z-index: 100;
-    
+    z-index: 100;
 
 
-    input{
+
+    input {
         width: 200px;
         height: 50px;
         border: 2px solid black;
@@ -100,7 +101,7 @@ div{
         padding-left: 5px;
     }
 
-    button{
+    button {
         width: 200px;
         height: 50px;
         color: #000;
@@ -108,8 +109,8 @@ div{
         border: 1px solid black;
     }
 
-    button:hover{
-    
+    button:hover {
+
         opacity: .3;
 
     }
@@ -117,9 +118,9 @@ div{
 
 #picture__input {
     display: none;
-  }
-  
-  .picture {
+}
+
+.picture {
     width: 700px;
     aspect-ratio: 16/9;
     background: #ddd;
@@ -133,36 +134,104 @@ div{
     transition: color 300ms ease-in-out, background 300ms ease-in-out;
     outline: none;
     overflow: hidden;
-  }
-  
-  .picture:hover {
+}
+
+.picture:hover {
     color: #777;
     background: #ccc;
-  }
-  
+}
 
-  
-  .picture:focus {
+
+
+.picture:focus {
     color: #777;
     background: #ccc;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-  }
-  
-  .picture__img {
-    max-width: 100%;
-  }
+}
 
-  .mascara{
+.picture__img {
+    max-width: 100%;
+}
+
+.mascara {
     width: 100vw;
-  
+
     height: 100vh;
     background: linear-gradient(211deg, rgb(-14 -2 -58 / 31%) 6%, rgb(60 57 42 / 69%) 36%, rgb(19 15 18 / 69%) 74%);
-    
-    visibility:visible;
+
+    visibility: visible;
     top: 0;
     position: fixed;
     height: 100%;
     width: 100%;
     z-index: 10;
-  }
+}
+
+
+
+
+@media screen and  (max-width:500) {
+
+    body{
+        flex-direction: column-reverse;
+    
+    }
+
+    .quadrado-principal{
+        gap: 10px;
+        padding: 7px;
+    }
+
+    h1{
+        font-size: 37px;
+    }
+
+    h2{
+        font-size: 24px;
+    }
+
+    h3{
+        font-size: 21px;
+    }
+
+    a{
+        font-size: 17px;
+    }
+
+    .picture{
+
+        width: 171px;
+    }
+
+    input{
+
+        width: 100px;
+        height: 25;
+    }
+
+    button{
+
+        
+        width: 100px;
+        height: 25;
+
+    }
+
+    div{
+        gap: 9px;
+    }
+
+   
+
+
+
+
+
+
+
+
+
+}
+
+
 

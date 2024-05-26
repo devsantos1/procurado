@@ -47,8 +47,13 @@ const valueinput = (document.querySelector(".input-valor").value)
 
 
 
+
+
+
   namecartaz.textContent = text
-   valor.innerHTML =  valueCartaz
+
+  valueCartaz.textContent = valueinput
+   
 
 
 

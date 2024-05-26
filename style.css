@@ -166,16 +166,50 @@ div {
 
 
 
-
-
-@media screen and (max-width:499){
+@media screen and (max-width:507px) {
 
     body{
-        flex-direction: column-reverse;
-       
 
+        flex-direction: column-reverse;
+    }
+
+
+    .picture{
+
+        width: 227px;
+
+    }
+
+    .quadrado-principal{
+
+        h1 {
+            font-size: 51px;
+            
+        }
+    
+        h2 {
+            font-size: 25px;
+        }
+    
+        h3 {
+            font-size: 23px;
+    
+        }
+    
+        p {
+            font-size: 45px;
+        }
+    
+
+    }
+
+  
+    a {
+        font-weight: bold;
+        font-size: 36px;
     }
 
 
 
+    
 }
